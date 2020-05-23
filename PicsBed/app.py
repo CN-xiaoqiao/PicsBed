@@ -1,5 +1,5 @@
 from flask import Flask
-from PicBed.routes import bp as pb_bp
+from PicsBed.routes import bp as pb_bp
 
 
 def create_app():
