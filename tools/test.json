@@ -1,0 +1,30 @@
+{
+        "username" : "jim",
+        "password" : 55555,
+        "email" : "326695232@qq.com",
+        "phone" : 123,
+        "source" : [
+                {
+                        "name" : "default",
+                        "where" : "aliyun",
+                        "access_key" : "LTAI4GGMjHdegbYZeSCejFVE",
+                        "access_key_secert" : "OUCUU0EoCWaS7QvAmTvMN0a5l5tRvB",
+                        "path": "images",
+                        "endpoint" : "oss-cn-beijing.aliyuncs.com",
+                        "bucket" : "picsbed",
+                        "enable" : true
+                },
+                {
+                        "name" : "test",
+                        "where" : "local",
+                        "path": "test",
+                        "access_key" : "test",
+                        "access_key_secert" : "test",
+                        "endpoint" : "test",
+                        "bucket" : "test",
+                        "enable" : false
+                }
+        ],
+        "create_time" : 123,
+        "update_time" : 123
+}
